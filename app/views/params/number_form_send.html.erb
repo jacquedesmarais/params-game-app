@@ -1,0 +1,5 @@
+<h1>Your guess was <%= @guess %> and that guess was <%= @message %> Would you like to try again?</h1>
+<% if @guess != @winning_number %>
+  <a href="/number_form_show">Click Here To Try Again</a>
+<% else %>
+<% end %>
